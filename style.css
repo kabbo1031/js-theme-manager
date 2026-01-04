@@ -1,0 +1,35 @@
+body{
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  transition:0.3s;
+}
+
+.app{
+  padding:30px;
+  border-radius:12px;
+  background:rgba(0,0,0,0.1);
+}
+
+body.light{
+  background:#f8fafc;
+  color:#020617;
+}
+
+body.dark{
+  background:#020617;
+  color:white;
+}
+
+body.blue{
+  background:#0f172a;
+  color:#38bdf8;
+}
+
+button{
+  margin:6px;
+  padding:8px 14px;
+  cursor:pointer;
+}
